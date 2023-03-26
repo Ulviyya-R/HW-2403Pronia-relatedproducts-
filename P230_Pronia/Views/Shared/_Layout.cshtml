@@ -103,7 +103,7 @@
                                     <a href="tel://+00-123-456-789">@layoutService.GetSettings().FirstOrDefault(s=>s.Key=="PhoneNumber")?.Value</a>
                                 </div>
 
-                                <a href="index.html" class="header-logo">
+                                <a asp-controller="Home" asp-action="Index" class="header-logo">
                                     <img src="~/assets/images/logo/@layoutService.GetSettings().FirstOrDefault(s=>s.Key=="Logo")?.Value" alt="Header Logo" />
                                 </a>
 
